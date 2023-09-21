@@ -2,3 +2,88 @@
   border: 1px solid #38f00025;
   height: 100%;
 }
+
+.hello__left-bar {
+  /*border: 1px solid #ff480025;*/
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.hello__heading-3 {
+  font-size: 29.69px;
+}
+
+h1 {
+  font-size: 62px;
+  padding-top: 10px;
+}
+
+.hello__text__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  color: #fea55f;
+  font-size: 32px;
+}
+
+#skill {
+  color: #607b96;
+}
+
+.hello__comment {
+  color: #607b96;
+  padding-top: 40px;
+}
+
+.hello__ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.hello__ul li {
+  color: #607b96;
+  font-size: 24px;
+}
+
+#rock1 {
+  z-index: 0;
+  position: absolute;
+  top: 100px;
+  left: 97px;
+}
+
+/* TYPE-WRITER*/
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid #fea55f;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fea55f;
+  }
+}
