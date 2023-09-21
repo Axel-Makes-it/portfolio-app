@@ -20,9 +20,9 @@ function Hello() {
       <img id="land1" src={LAND1} alt="icon" width={200} />
       <img id="tube" src={TUBE} alt="icon" width={50} />
       <img id="me1" src={ME1} alt="icon" width={80} />
-      <img id="levitateRock" src={LeviRock} alt="icon" width={420} />
+      <img id="levitateRock" src={LeviRock} alt="icon" width={350} />
       <img id="cloud2" src={CLOUD2} alt="icon" width={250} />
-      <img id="comp" src={COMP} alt="icon" width={430} />
+      <img id="comp" src={COMP} alt="icon" width={320} />
       <div className="hello__left-bar">
         <div className="hello__text__container">
           <p className="hello__heading-3">Hi all. I am</p>

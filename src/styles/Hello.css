@@ -99,8 +99,8 @@ h1 {
 #levitateRock {
   z-index: 0;
   position: absolute;
-  bottom: 50px;
-  right: 300px;
+  bottom: 160px;
+  right: 200px;
   z-index: 1;
 }
 
@@ -114,8 +114,8 @@ h1 {
 #comp {
   z-index: 1;
   position: absolute;
-  bottom: 115px;
-  right: 330px;
+  bottom: 230px;
+  right: 240px;
 }
 
 /* TYPE-WRITER*/
