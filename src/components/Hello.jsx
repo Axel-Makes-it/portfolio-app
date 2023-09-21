@@ -16,14 +16,13 @@ function Hello() {
     <div className="hello__container">
       {" "}
       <img id="rock1" src={ROCK1} alt="icon" width={50} />
-      <img id="land" src={LAND} alt="icon" width={150} />
+      <img id="land" src={LAND} alt="icon" width={70} />
       <img id="cloud" src={CLOUD} alt="icon" width={350} />
       <img id="land1" src={LAND1} alt="icon" width={200} />
       <img id="tube" src={TUBE} alt="icon" width={50} />
-      <img id="me1" src={ME1} alt="icon" width={80} />
+      <img id="me1" src={ME1} alt="icon" width={150} />
       <img id="levitateRock" src={LeviRock} alt="icon" width={350} />
       <img id="cloud2" src={CLOUD2} alt="icon" width={250} />
-      <img id="comp" src={COMP} alt="icon" width={320} />
       <img id="rock3" src={ROCK3} alt="icon" width={150} />
       <img id="comp5" src={COMP} alt="icon" width={60} />
       <div className="hello__left-bar">
