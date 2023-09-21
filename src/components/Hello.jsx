@@ -25,6 +25,7 @@ function Hello() {
       <img id="cloud2" src={CLOUD2} alt="icon" width={250} />
       <img id="comp" src={COMP} alt="icon" width={320} />
       <img id="rock3" src={ROCK3} alt="icon" width={150} />
+      <img id="comp5" src={COMP} alt="icon" width={60} />
       <div className="hello__left-bar">
         <div className="hello__text__container">
           <p className="hello__heading-3">Hi all. I am</p>

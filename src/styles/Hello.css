@@ -125,6 +125,13 @@ h1 {
   left: 400px;
 }
 
+#comp5 {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 430px;
+}
+
 /* TYPE-WRITER*/
 
 .typewriter h1 {
