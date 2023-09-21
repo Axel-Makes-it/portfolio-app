@@ -9,12 +9,13 @@ import TUBE from "../images/tube.svg";
 import ME1 from "../images/me1.png";
 import LeviRock from "../images/lavitateRock.svg";
 import COMP from "../images/computer.svg";
+import ROCK3 from "../images/rock3.svg";
 
 function Hello() {
   return (
     <div className="hello__container">
       {" "}
-      <img id="rock1" src={ROCK1} alt="icon" />
+      <img id="rock1" src={ROCK1} alt="icon" width={50} />
       <img id="land" src={LAND} alt="icon" width={150} />
       <img id="cloud" src={CLOUD} alt="icon" width={350} />
       <img id="land1" src={LAND1} alt="icon" width={200} />
@@ -23,6 +24,7 @@ function Hello() {
       <img id="levitateRock" src={LeviRock} alt="icon" width={350} />
       <img id="cloud2" src={CLOUD2} alt="icon" width={250} />
       <img id="comp" src={COMP} alt="icon" width={320} />
+      <img id="rock3" src={ROCK3} alt="icon" width={150} />
       <div className="hello__left-bar">
         <div className="hello__text__container">
           <p className="hello__heading-3">Hi all. I am</p>
