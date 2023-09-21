@@ -1,11 +1,12 @@
 .hello__container {
-  border: 1px solid #38f00025;
+  /*border: 1px solid #38f00025;*/
   height: 100%;
+  position: relative;
 }
 
 .hello__left-bar {
   /*border: 1px solid #ff480025;*/
-  width: 50%;
+  width: 35%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -48,14 +49,73 @@ h1 {
 
 .hello__ul li {
   color: #607b96;
-  font-size: 24px;
+  font-size: 20px;
 }
 
+/*ICONS*/
 #rock1 {
   z-index: 0;
   position: absolute;
   top: 100px;
-  left: 97px;
+  left: 0px;
+}
+
+#land {
+  z-index: 0;
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+}
+
+#cloud {
+  z-index: 0;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+#land1 {
+  z-index: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+#tube {
+  z-index: 0;
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+}
+
+#me1 {
+  z-index: 0;
+  position: absolute;
+  bottom: 230px;
+  right: 10px;
+}
+
+#levitateRock {
+  z-index: 0;
+  position: absolute;
+  bottom: 50px;
+  right: 300px;
+  z-index: 1;
+}
+
+#cloud2 {
+  z-index: 0;
+  position: absolute;
+  bottom: 120px;
+  right: 555px;
+}
+
+#comp {
+  z-index: 1;
+  position: absolute;
+  bottom: 115px;
+  right: 330px;
 }
 
 /* TYPE-WRITER*/

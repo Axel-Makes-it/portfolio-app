@@ -2,6 +2,7 @@
   border-bottom: 1px solid #1e2d3d;
   display: flex;
   align-items: center;
+  background-color: #001d35;
 }
 
 .name-with-space {
@@ -43,7 +44,7 @@
   font-size: 16px;
   border-bottom: 3px solid #1e2d3d00;
   padding: 15px 25px;
-  background-color: #001d35;
+  background-color: #002a4d;
   transition: 0.35s;
 }
 

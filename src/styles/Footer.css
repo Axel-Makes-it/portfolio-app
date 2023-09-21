@@ -1,6 +1,8 @@
 .footer {
   border-top: 1px solid #1e2d3d;
   display: flex;
+  justify-content: flex-end;
+  background-color: #001d35;
   padding: 2px;
 }
 
@@ -8,6 +10,8 @@
   display: flex;
   list-style-type: none;
   align-items: center;
+
+  border-left: 1px solid #1e2d3d;
 }
 
 .footer__li {
@@ -20,7 +24,9 @@
   list-style-type: none;
   gap: 15px;
   display: flex;
+  padding-top: 5px;
   align-items: center;
+  padding-right: 10px;
 }
 
 .heading__orange {
