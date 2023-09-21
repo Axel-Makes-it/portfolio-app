@@ -32,15 +32,18 @@
   transition: 0.35s;
 }
 
+.nav__list {
+  margin-left: auto;
+  display: flex;
+}
+
 .nav__contact {
   padding: 10px;
   color: #ffffff;
   font-size: 16px;
-  border-left: 1px solid #1e2d3d;
   border-bottom: 3px solid #1e2d3d00;
   padding: 15px 25px;
   background-color: #001d35;
-  margin-left: auto;
   transition: 0.35s;
 }
 

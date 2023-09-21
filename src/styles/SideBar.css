@@ -5,4 +5,18 @@
   min-width: 350px;
   padding-left: 20px;
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__stacks {
+  color: #607b96;
+}
+
+.heading__orange {
+  color: #fea55f;
+}
+
+.sidebar__stack-icons {
+  list-style-type: none;
 }

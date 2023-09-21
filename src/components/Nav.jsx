@@ -6,17 +6,19 @@ function Nav() {
     <div className="nav">
       <p className="nav__name">
         {"< "}
-        <span className="name-with-space">AxelSantiago</span>
+        <span className="name-with-space">AxelSantiago </span> portfolio="view"
         {" />"}
       </p>
-      <ul className="nav__menu__container">
-        <li className="nav__menu">_hello</li>
-        <li className="nav__menu">_about-me</li>
-        <li className="nav__menu" id="projects">
-          _projects
-        </li>
-      </ul>
-      <p className="nav__contact">_contact-me</p>
+      <div className="nav__list">
+        <ul className="nav__menu__container">
+          <li className="nav__menu">_hello</li>
+          <li className="nav__menu">_about-me</li>
+          <li className="nav__menu" id="projects">
+            _projects
+          </li>
+        </ul>
+        <p className="nav__contact">_contact-me</p>
+      </div>
     </div>
   );
 }
