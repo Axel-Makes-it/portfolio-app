@@ -1,4 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: "FiraCode-Regular";
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010c15;
+}
+
+.App {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 95vh;
+  width: 90vw;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #1e2d3d;
+  background: #011627;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "FiraCode-Regular";
+  src: url("../public/fonts/FiraCode-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }

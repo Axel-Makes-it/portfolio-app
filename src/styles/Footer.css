@@ -1,0 +1,16 @@
+.footer {
+  border-top: 1px solid #1e2d3d;
+  display: flex;
+}
+
+.footer__ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer__li {
+  padding: 10px;
+  color: #607b96;
+  font-size: 16px;
+}
