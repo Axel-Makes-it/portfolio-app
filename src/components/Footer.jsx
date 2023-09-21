@@ -23,28 +23,28 @@ function Footer() {
       <div className="footer__stack__container">
         <ul className="footer__stack-icons">
           <li>
-            <img src={HTML} alt="html5" width={50} />
+            <img src={HTML} alt="html5" title="HTML5" width={35} />
           </li>
           <li>
-            <img src={CSS3} alt="CSS3" width={50} />
+            <img src={CSS3} alt="CSS3" title="CSS3" width={35} />
           </li>
           <li>
-            <img src={JS} alt="javascript" width={50} />
+            <img src={JS} alt="javascript" title="Javascript" width={35} />
           </li>
           <li>
-            <img src={REACT} alt="react" width={50} />
+            <img src={REACT} alt="react" title="React" width={35} />
           </li>
           <li>
-            <img src={REDUX} alt="redux" width={50} />
+            <img src={REDUX} alt="redux" title="Redux" width={30} />
           </li>
           <li>
-            <img src={FIREBASE} alt="firebase" width={40} />
+            <img src={FIREBASE} alt="firebase" title="FireBase" width={30} />
           </li>
           <li>
-            <img src={GIT} alt="git" width={40} />
+            <img src={GIT} alt="git" title="GitHub" width={30} />
           </li>
           <li>
-            <img src={FIGMA} alt="git" width={30} />
+            <img src={FIGMA} alt="git" title="Figma" width={20} />
           </li>
         </ul>
       </div>
