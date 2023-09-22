@@ -10,6 +10,10 @@ import ME1 from "../images/me1.png";
 import LeviRock from "../images/lavitateRock.svg";
 import COMP from "../images/computer.svg";
 import ROCK3 from "../images/rock3.svg";
+import HTML from "../images/html5.svg";
+import CSS3 from "../images/css3.svg";
+import JS from "../images/js.svg";
+import REACT from "../images/react.svg";
 
 function Hello() {
   return (
@@ -25,6 +29,10 @@ function Hello() {
       <img id="cloud2" src={CLOUD2} alt="icon" width={250} />
       <img id="rock3" src={ROCK3} alt="icon" width={150} />
       <img id="comp5" src={COMP} alt="icon" width={60} />
+      <img id="htmlIcon" src={HTML} alt="html5" title="HTML5" width={35} />
+      <img id="cssIcon" src={CSS3} alt="CSS3" title="CSS3" width={35} />
+      <img id="jsIcon" src={JS} alt="JS" title="JS" width={35} />
+      <img id="reactIcon" src={REACT} alt="REACT" title="REACT" width={35} />
       <div className="hello__left-bar">
         <div className="hello__text__container">
           <p className="hello__heading-3">Hi all. I am</p>

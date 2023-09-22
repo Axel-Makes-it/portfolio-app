@@ -125,6 +125,68 @@ h1 {
   left: 430px;
 }
 
+#htmlIcon {
+  z-index: 1;
+  position: absolute;
+  top: 250px;
+  right: 220px;
+  z-index: 1;
+  padding: 5px;
+  background-color: #003a69;
+  border-radius: 50px;
+  animation: levitate 2s ease-in-out infinite;
+}
+
+#cssIcon {
+  z-index: 1;
+  position: absolute;
+  top: 400px;
+  right: 420px;
+  z-index: 1;
+  padding: 5px;
+  background-color: #003a69;
+  border-radius: 50px;
+  animation: levitate 2s ease-in-out infinite;
+}
+
+#jsIcon {
+  z-index: 1;
+  position: absolute;
+  top: 300px;
+  right: 470px;
+  z-index: 1;
+  padding: 5px;
+  background-color: #003a69;
+  border-radius: 50px;
+  animation: levitate 2s ease-in-out infinite;
+}
+
+#reactIcon {
+  z-index: 1;
+  position: absolute;
+  top: 365px;
+  right: 200px;
+  z-index: 1;
+  padding: 5px;
+  background-color: #003a69;
+  border-radius: 50px;
+  animation: levitate 2s ease-in-out infinite;
+}
+
+/* LEVITATE EFFECT*/
+
+@keyframes levitate {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-5px, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 /* TYPE-WRITER*/
 
 .typewriter h1 {
