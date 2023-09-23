@@ -16,7 +16,10 @@ function App() {
 
   return (
     <div className="App">
-      <Nav activeSection={activeSection} onSectionClick={handleSectionClick} />
+      <Nav
+        activeSection={activeSection}
+        handleSectionClick={handleSectionClick}
+      />
 
       {activeSection === "hello" && <Hello />}
       {activeSection === "projects" && <Projects />}

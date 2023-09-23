@@ -14,3 +14,24 @@
   overflow-x: hidden;
   gap: 10px;
 }
+
+/* custom scroll*/
+
+.about__container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.about__container::-webkit-scrollbar-thumb {
+  background-color: #607b96;
+  border-radius: 50px;
+}
+
+.about__container::-webkit-scrollbar-track {
+  background-color: #011221;
+}
+
+.about__container {
+  scrollbar-color: #607b96 #011221;
+  scrollbar-width: auto;
+}

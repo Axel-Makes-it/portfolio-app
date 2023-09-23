@@ -28,35 +28,13 @@
 .aboutme p {
   color: #607b96;
   font-size: 18px;
-  margin-left: 20px; /* Adjust the margin as needed to create space for the image */
+  margin-left: 20px;
 }
 
 #me {
   padding-top: 20px;
-
   float: left;
   margin-right: 20px;
-  width: 300px; /* Set the width in CSS */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* custom scroll*/
-
-.about__container::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-
-.about__container::-webkit-scrollbar-thumb {
-  background-color: #607b96;
-  border-radius: 50px;
-}
-
-.about__container::-webkit-scrollbar-track {
-  background-color: #011221;
-}
-
-.about__container {
-  scrollbar-color: #607b96 #011221;
-  scrollbar-width: auto;
+  width: 200px;
+  height: auto;
 }

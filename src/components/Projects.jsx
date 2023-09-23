@@ -20,9 +20,23 @@ function Projects() {
 
   return (
     <section className="projects__container">
-      <div className="projects__left-bar">
-        <p>projects</p>
-      </div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
+      <div className="projects__card"></div>
     </section>
   );
 }

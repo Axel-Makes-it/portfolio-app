@@ -16,7 +16,7 @@ function Footer() {
       <ul className="footer__ul">
         <li className="footer__li">
           {" "}
-          function <span className="heading__orange">getSkill</span> = ()
+          const <span className="heading__orange">getSkill</span> = ()
           {" =>"} {data}
         </li>
       </ul>

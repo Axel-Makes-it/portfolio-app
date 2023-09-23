@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Nav.css";
 
-function Nav({ activeSection, onSectionClick }) {
+function Nav({ activeSection, handleSectionClick }) {
   return (
     <div className="nav">
       <p className="nav__name">
@@ -13,7 +13,7 @@ function Nav({ activeSection, onSectionClick }) {
         <ul className="nav__menu__container">
           <li
             className={`nav__menu ${activeSection === "hello" ? "active" : ""}`}
-            onClick={() => onSectionClick("hello")}
+            onClick={() => handleSectionClick("hello")}
           >
             _hello
           </li>
@@ -21,7 +21,7 @@ function Nav({ activeSection, onSectionClick }) {
             className={`nav__menu ${
               activeSection === "about-me" ? "active" : ""
             }`}
-            onClick={() => onSectionClick("about-me")}
+            onClick={() => handleSectionClick("about-me")}
           >
             _about-me
           </li>
@@ -29,7 +29,7 @@ function Nav({ activeSection, onSectionClick }) {
             className={`nav__menu ${
               activeSection === "projects" ? "active" : ""
             }`}
-            onClick={() => onSectionClick("projects")}
+            onClick={() => handleSectionClick("projects")}
           >
             _projects
           </li>
@@ -38,7 +38,7 @@ function Nav({ activeSection, onSectionClick }) {
           className={`nav__contact ${
             activeSection === "contact-me" ? "active" : ""
           }`}
-          onClick={() => onSectionClick("contact-me")}
+          onClick={() => handleSectionClick("contact-me")}
         >
           _contact-me
         </p>
