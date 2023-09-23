@@ -17,7 +17,7 @@ import REACT from "../images/react.svg";
 
 function Hello() {
   return (
-    <div className="hello__container">
+    <section className="hello__container">
       {" "}
       <img id="rock1" src={ROCK1} alt="icon" width={50} />
       <img id="land" src={LAND} alt="icon" width={70} />
@@ -46,11 +46,13 @@ function Hello() {
             <ul className="hello__ul">
               <li>{"// welcome to my portfolio!"}</li>
               <li>{"// you can also see my projects on my Github page"}</li>
+              <li>{"// i can turn ui/ux design into code!"}</li>
+              <li>{"// want to test my skills? send a project over!"}</li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

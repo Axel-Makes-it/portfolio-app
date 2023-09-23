@@ -63,3 +63,11 @@
 #projects {
   border-right: 1px solid #1e2d3d;
 }
+
+/*active Section*/
+
+.nav__menu.active {
+  cursor: pointer;
+  color: white;
+  border-bottom: 3px solid #fea55f;
+}
