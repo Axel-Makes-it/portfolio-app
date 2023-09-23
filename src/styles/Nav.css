@@ -71,3 +71,9 @@
   color: white;
   border-bottom: 3px solid #fea55f;
 }
+
+.nav__contact.active {
+  cursor: pointer;
+  color: white;
+  border-bottom: 3px solid #fea55f;
+}

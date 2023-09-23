@@ -1,5 +1,4 @@
 import "../styles/Projects.css";
-import HULU from "../images/hulu.png";
 
 const projects = {
   name: "Hulu-Clone",

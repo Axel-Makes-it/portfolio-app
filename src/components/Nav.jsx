@@ -34,7 +34,14 @@ function Nav({ activeSection, onSectionClick }) {
             _projects
           </li>
         </ul>
-        <p className="nav__contact">_contact-me</p>
+        <p
+          className={`nav__contact ${
+            activeSection === "contact-me" ? "active" : ""
+          }`}
+          onClick={() => onSectionClick("contact-me")}
+        >
+          _contact-me
+        </p>
       </div>
     </div>
   );
