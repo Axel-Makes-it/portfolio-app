@@ -4,6 +4,8 @@
   justify-content: flex-end;
   background-color: #001d35;
   padding: 2px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .footer__ul {
