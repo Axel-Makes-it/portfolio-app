@@ -268,6 +268,99 @@ h1 {
   #rock1 {
     width: 30px;
   }
+
+  .hello__heading-3 {
+    font-size: 23.752px;
+  }
+
+  h1 {
+    font-size: 49.6px;
+    padding-top: 10px;
+  }
+
+  .skill {
+    font-size: 25.6px;
+  }
+
+  .hello__ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1090px) {
+  #levitateRock {
+    display: none;
+  }
+
+  #me1 {
+    bottom: 80px;
+    left: 30px;
+    width: 80px;
+  }
+
+  #rock3 {
+    width: 100px;
+    top: 20px;
+    left: 80px;
+  }
+
+  #comp5 {
+    width: 50px;
+    top: 17px;
+    left: 95px;
+  }
+
+  #cloud2 {
+    width: 100px;
+    bottom: 10px;
+    right: 30px;
+  }
+
+  #htmlIcon {
+    display: none;
+  }
+
+  #cssIcon {
+    display: none;
+  }
+
+  #jsIcon {
+    display: none;
+  }
+
+  #reactIcon {
+    top: 590px;
+    left: 115px;
+    width: 20px;
+    z-index: 0;
+  }
+
+  #tube {
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1090px) {
+  #rock1 {
+    width: 30px;
+  }
+
+  .hello__heading-3 {
+    font-size: 16.6264px;
+  }
+
+  h1 {
+    font-size: 34.72px;
+    padding-top: 10px;
+  }
+
+  .skill {
+    font-size: 17.92px;
+  }
+
+  .hello__ul li {
+    font-size: 11.2px;
+  }
 }
 
 @media (max-height: 940px) {

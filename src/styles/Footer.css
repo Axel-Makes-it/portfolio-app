@@ -34,3 +34,36 @@
 .heading__orange {
   color: #fea55f;
 }
+
+@media (max-width: 1250px) {
+  .footer__li {
+    font-size: 12.8px;
+  }
+  .footer__stack-icons li img {
+    width: 20px;
+  }
+
+  #firebase {
+    width: 18px;
+  }
+
+  #figma {
+    width: 14px;
+  }
+  .footer__stack-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__stack-icons {
+    margin-top: 4px;
+  }
+  .footer {
+    justify-content: center;
+  }
+
+  .footer__ul {
+    border-left: none;
+  }
+}

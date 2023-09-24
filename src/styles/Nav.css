@@ -80,3 +80,17 @@
   color: white;
   border-bottom: 3px solid #fea55f;
 }
+
+@media (max-width: 1250px) {
+  .nav__menu {
+    font-size: 12.8px;
+  }
+
+  .nav__contact {
+    font-size: 12.8px;
+  }
+
+  .nav__name {
+    font-size: 12.8px;
+  }
+}

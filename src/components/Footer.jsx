@@ -38,13 +38,19 @@ function Footer() {
             <img src={REDUX} alt="redux" title="Redux" width={30} />
           </li>
           <li>
-            <img src={FIREBASE} alt="firebase" title="FireBase" width={30} />
+            <img
+              id="firebase"
+              src={FIREBASE}
+              alt="firebase"
+              title="FireBase"
+              width={30}
+            />
           </li>
           <li>
             <img src={GIT} alt="git" title="GitHub" width={30} />
           </li>
           <li>
-            <img src={FIGMA} alt="git" title="Figma" width={20} />
+            <img id="figma" src={FIGMA} alt="git" title="Figma" width={20} />
           </li>
         </ul>
       </div>
