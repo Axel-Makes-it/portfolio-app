@@ -383,4 +383,41 @@ h1 {
   #reactIcon {
     display: none;
   }
+
+  .hello__text__container {
+    padding-left: 0px 0px 0px 0px;
+  }
+
+  .hello__heading-3 {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 25.512px;
+    padding-top: 10px;
+  }
+
+  .skill {
+    font-size: 12.232px;
+  }
+
+  .hello__ul li {
+    font-size: 10px;
+  }
+
+  .hello__comment {
+    padding-top: 18px;
+    font-size: 10px;
+  }
+
+  #me1 {
+    bottom: 75px;
+    left: 30px;
+    width: 60px;
+  }
+
+  #cloud {
+    width: 190px;
+    top: 90px;
+  }
 }
