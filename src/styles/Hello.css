@@ -402,12 +402,11 @@ h1 {
   }
 
   .hello__ul li {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .hello__comment {
     padding-top: 18px;
-    font-size: 10px;
   }
 
   #me1 {
