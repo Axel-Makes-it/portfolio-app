@@ -11,22 +11,64 @@
 
 .projects__card {
   background-color: #011221;
-  border: 1px solid #1e2d3d;
+  border: 2px solid #1e2d3d;
   border-radius: 10px;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 550px;
   margin: 10px;
   transition: 0.35s;
   box-shadow: 0px 0px 5px 1px #00000054;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .projects__card:hover {
   background-color: #011221;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   border-radius: 10px;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 550px;
   margin: 10px;
+}
+
+.projects__img {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.projects__info h3 {
+  margin-left: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.projects__info p {
+  color: #607b96;
+  font-size: 18px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.projects__info span {
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+.projects__info a {
+  color: #fea55f;
+  font-size: 16px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+}
+
+#stack {
+  font-size: 14px;
 }
 
 /* custom scroll*/

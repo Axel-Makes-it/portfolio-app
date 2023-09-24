@@ -12,12 +12,14 @@ function Nav({ activeSection, handleSectionClick }) {
       <div className="nav__list">
         <ul className="nav__menu__container">
           <li
+            title="Hello"
             className={`nav__menu ${activeSection === "hello" ? "active" : ""}`}
             onClick={() => handleSectionClick("hello")}
           >
             _hello
           </li>
           <li
+            title="About me"
             className={`nav__menu ${
               activeSection === "about-me" ? "active" : ""
             }`}
@@ -26,6 +28,7 @@ function Nav({ activeSection, handleSectionClick }) {
             _about-me
           </li>
           <li
+            title="Projects"
             className={`nav__menu ${
               activeSection === "projects" ? "active" : ""
             }`}
@@ -35,6 +38,7 @@ function Nav({ activeSection, handleSectionClick }) {
           </li>
         </ul>
         <p
+          title="Contact me"
           className={`nav__contact ${
             activeSection === "contact-me" ? "active" : ""
           }`}

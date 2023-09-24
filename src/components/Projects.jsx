@@ -1,42 +1,63 @@
 import "../styles/Projects.css";
+import HULU from "../images/hulu.png";
+import LINK from "../images/link.svg";
+import CHAT from "../images/chat.png";
 
-const projects = {
-  name: "Hulu-Clone",
-  technology:
-    "React, React-Router, Async Fetching, Vercel, TMDB API, CSS3, HTML5, JavaScript",
-  description: `
-    I recreated the movie card design from Hulu's original website, preserving its distinctive style. 
-    I used the TMDB API to dynamically fetch and showcase movies on my website, 
-    adding an extra layer of user engagement by including movie titles and integrating the YouTube 
-    API to provide intriguing trailers. In addition, I implemented a user-friendly search engine for 
-    precise movie searches. The website, meticulously crafted with React, is seamlessly hosted on 
-    Vercel, and I ensured an appealing and adaptable user experience through CSS3, making the site 
-    responsive across various devices.
-  `,
-};
+const projects = [
+  {
+    name: "Hulu-Clone",
+    stack:
+      "React, React-Router, Async Fetching, Vercel, TMDB API, CSS3, HTML5, JavaScript",
+    description: `
+      I recreated Hulu's movie card design, integrated TMDB and YouTube APIs for movies 
+      and trailers, and added a user-friendly search engine. The React-based site is hosted 
+      on Vercel and designed to be responsive.
+    `,
+    imageUrl: HULU,
+    getUrl: () => "https://hulu-replica-rho.vercel.app/",
+  },
+  {
+    name: "Live Chat - Concept",
+    stack: "React, Cloud FireStore, Fetching, CSS3, HTML5, JavaScript",
+    description: `
+      I have developed a live chat application using React and Cloud Firestore. 
+      The website is hosted on Vercel. Chat messages are stored in the Firebase 
+      database, and they are retrieved and shown on the website.
+    `,
+    imageUrl: CHAT,
+    getUrl: () => "https://messenger-app-eight.vercel.app/",
+  },
+];
 
 function Projects() {
-  console.log(projects);
-
   return (
     <section className="projects__container">
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
-      <div className="projects__card"></div>
+      {projects.map((project, index) => (
+        <div className="projects__card" key={index}>
+          <img
+            className="projects__img"
+            src={project.imageUrl}
+            alt={project.name}
+          />
+
+          <div className="projects__info">
+            <h3>{project.name}</h3>
+            <p>{project.description}</p>
+            <p id="stack">
+              <span>Tech:</span>
+              {project.stack}
+            </p>
+            <a
+              href={project.getUrl()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={LINK} alt="Live View" />
+              Live View
+            </a>
+          </div>
+        </div>
+      ))}
     </section>
   );
 }
