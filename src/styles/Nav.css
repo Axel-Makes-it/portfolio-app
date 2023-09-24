@@ -5,6 +5,7 @@
   background-color: #001d35;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
+  z-index: 5;
 }
 
 .name-with-space {

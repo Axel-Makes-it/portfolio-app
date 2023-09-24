@@ -18,7 +18,6 @@ import REACT from "../images/react.svg";
 function Hello() {
   return (
     <section className="hello__container">
-      {" "}
       <img id="rock1" src={ROCK1} alt="icon" width={50} />
       <img id="land" src={LAND} alt="icon" width={70} />
       <img id="cloud" src={CLOUD} alt="icon" width={350} />

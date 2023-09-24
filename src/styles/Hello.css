@@ -97,7 +97,6 @@ h1 {
 }
 
 #levitateRock {
-  z-index: 0;
   position: absolute;
   bottom: 80px;
   right: 200px;
@@ -214,5 +213,77 @@ h1 {
   }
   50% {
     border-color: #fea55f;
+  }
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 1500px) {
+  #rock1 {
+    width: 30px;
+  }
+
+  #levitateRock {
+    width: 250px;
+  }
+
+  #me1 {
+    width: 100px;
+    bottom: 240px;
+    right: 265px;
+  }
+
+  #cloud2 {
+    width: 190px;
+    bottom: 110px;
+    right: 340px;
+  }
+
+  #htmlIcon {
+    top: 350px;
+    right: 190px;
+    width: 30px;
+  }
+
+  #cssIcon {
+    top: 410px;
+    right: 360px;
+    width: 30px;
+  }
+
+  #jsIcon {
+    top: 340px;
+    right: 410px;
+    width: 30px;
+  }
+
+  #reactIcon {
+    top: 430px;
+    right: 190px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 1250px) {
+  #rock1 {
+    width: 30px;
+  }
+}
+
+@media (max-height: 940px) {
+  #htmlIcon {
+    display: none;
+  }
+
+  #cssIcon {
+    display: none;
+  }
+
+  #jsIcon {
+    display: none;
+  }
+
+  #reactIcon {
+    display: none;
   }
 }
