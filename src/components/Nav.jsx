@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Nav.css";
 
 function Nav({ activeSection, handleSectionClick }) {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Toggle mobile menu
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  // Handle select change
+  const handleSelectChange = (event) => {
+    const selectedSection = event.target.value;
+    handleSectionClick(selectedSection);
+  };
+
   return (
     <div className="nav">
       <p className="nav__name">
@@ -10,7 +23,32 @@ function Nav({ activeSection, handleSectionClick }) {
         {" />"}
       </p>
       <div className="nav__list">
-        <ul className="nav__menu__container">
+        {/* Mobile Menu */}
+        <div className="mobile-menu">
+          <select
+            value={activeSection}
+            onChange={handleSelectChange}
+            className={`mobile-menu-select ${isMobileMenuOpen ? "open" : ""}`}
+          >
+            <option value="hello">Hello</option>
+            <option value="about-me">About me</option>
+            <option value="projects">Projects</option>
+            <option value="contact-me">Contact me</option>
+          </select>
+          <div
+            className={`mobile-menu-icon ${isMobileMenuOpen ? "open" : ""}`}
+            onClick={toggleMobileMenu}
+          >
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </div>
+        </div>
+
+        {/* Desktop Menu */}
+        <ul
+          className={`nav__menu__container ${isMobileMenuOpen ? "hidden" : ""}`}
+        >
           <li
             title="Hello"
             className={`nav__menu ${activeSection === "hello" ? "active" : ""}`}

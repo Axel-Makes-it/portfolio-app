@@ -15,7 +15,6 @@
 .nav__name {
   color: #607b96;
   min-width: 350px;
-  padding-left: 20px;
   display: flex;
   align-items: center;
 }
@@ -92,5 +91,37 @@
 
   .nav__name {
     font-size: 12.8px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .nav__name {
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  .nav {
+    padding: 5px;
+  }
+
+  .nav__menu__container {
+    display: none;
+  }
+
+  .nav__contact {
+    display: none;
+  }
+  .mobile-menu select {
+    background-color: #002a4d;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #1e2d3d;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1090px) {
+  .mobile-menu select {
+    display: none;
   }
 }
