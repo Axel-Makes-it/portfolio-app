@@ -14,7 +14,7 @@
 
 .nav__name {
   color: #607b96;
-
+  padding-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -96,7 +96,7 @@
 
 @media (max-width: 1090px) {
   .nav__name {
-    font-size: 11px;
+    font-size: 14px;
     padding: 5px;
   }
 
