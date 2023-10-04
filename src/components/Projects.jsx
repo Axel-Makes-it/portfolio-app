@@ -2,10 +2,11 @@ import "../styles/Projects.css";
 import HULU from "../images/hulu.png";
 import LINK from "../images/link.svg";
 import CHAT from "../images/chat.png";
+import DISCORD from "../images/discord.png";
 
 const projects = [
   {
-    name: "Hulu-Clone",
+    name: "Hulu Clone",
     stack:
       "React, React-Router, Async Fetching, Vercel, TMDB API, CSS3, HTML5, JavaScript",
     description: `
@@ -15,6 +16,16 @@ const projects = [
     `,
     imageUrl: HULU,
     getUrl: () => "https://hulu-replica-rho.vercel.app/",
+  },
+  {
+    name: "Discord Clone - Page & dashboard",
+    stack: "React, Cloud FireStore, Fetching, CSS3, HTML5, JavaScript",
+    description: `
+     I've created a Discord clone using HTML, CSS, and React, Firebase, and Firestore. 
+     hosted on Vercel. Messages are stored and retrieved in real-time. I'm demostrating that I can work with API's.
+    `,
+    imageUrl: DISCORD,
+    getUrl: () => "https://discord-clone-two-eta.vercel.app/",
   },
   {
     name: "Live Chat - Concept",
