@@ -25,7 +25,7 @@ const projects = [
      hosted on Vercel. Messages are stored and retrieved in real-time. I'm demostrating that I can work with API's.
     `,
     imageUrl: DISCORD,
-    getUrl: () => "https://discord-clone-two-eta.vercel.app/",
+    getUrl: () => "https://dis-chat-seven.vercel.app/",
   },
   {
     name: "Live Chat - Concept",
