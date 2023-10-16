@@ -3,6 +3,7 @@ import HULU from "../images/hulu.png";
 import LINK from "../images/link.svg";
 import CHAT from "../images/chat.png";
 import DISCORD from "../images/discord.png";
+import STORE from "../images/hydrant1.png";
 
 const projects = [
   {
@@ -37,6 +38,17 @@ const projects = [
     `,
     imageUrl: CHAT,
     getUrl: () => "https://messenger-app-eight.vercel.app/",
+  },
+  {
+    name: "Ecommerce Store - Being Built",
+    stack: "React, Firebase, Fetching, CSS3, HTML5, JavaScript",
+    description: `
+      In this e-commerce store, you can add items to your cart, remove them, 
+      and check out using Stripe. The product listings are automatically fetched 
+      from Stripe, keeping the store's inventory up to date.
+    `,
+    imageUrl: STORE,
+    getUrl: () => "https://store-app-one-iota.vercel.app/",
   },
 ];
 
