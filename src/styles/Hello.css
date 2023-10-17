@@ -367,7 +367,13 @@ h1 {
   }
 }
 
-@media (max-height: 940px) {
+@media (max-width: 420px) {
+  .hello__left-bar {
+    padding-left: 30px;
+  }
+}
+
+@media (max-height: 840px) {
   #htmlIcon {
     display: none;
   }
