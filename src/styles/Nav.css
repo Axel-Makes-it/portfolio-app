@@ -80,6 +80,21 @@
   border-bottom: 3px solid #fea55f;
 }
 
+.viewProjects-btn {
+  margin-top: 10px;
+  background-color: #001d35;
+  border: 2px solid #1e2d3d;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.viewProjects-btn:hover {
+  background-color: #002544;
+  color: #fea55f;
+}
+
 @media (max-width: 1250px) {
   .nav__menu {
     font-size: 12.8px;
