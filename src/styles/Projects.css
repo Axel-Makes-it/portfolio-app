@@ -71,6 +71,20 @@
   font-size: 14px;
 }
 
+.projects__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#code {
+  color: #7394b8;
+}
+
+#code:hover {
+  color: #8cb0d6;
+}
+
 /* custom scroll*/
 
 .projects__container::-webkit-scrollbar {

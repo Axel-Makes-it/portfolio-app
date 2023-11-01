@@ -45,7 +45,6 @@ function Hello() {
             <ul className="hello__ul">
               <li>{"// welcome to my portfolio!"}</li>
               <li>{"// i can turn ui/ux design into code!"}</li>
-              <li>{"// want to test my skills? send a project over!"}</li>
             </ul>
           </div>
         </div>

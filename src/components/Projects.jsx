@@ -17,6 +17,7 @@ const projects = [
     `,
     imageUrl: HULU,
     getUrl: () => "https://hulu-replica-rho.vercel.app/",
+    anotherUrl: "https://github.com/Axel-Makes-it/react-vercel",
   },
   {
     name: "Discord Clone - Page & dashboard",
@@ -27,6 +28,7 @@ const projects = [
     `,
     imageUrl: DISCORD,
     getUrl: () => "https://dis-chat-seven.vercel.app/",
+    anotherUrl: "https://github.com/Axel-Makes-it/Disney-clone",
   },
   {
     name: "Live Chat - Concept",
@@ -38,6 +40,7 @@ const projects = [
     `,
     imageUrl: CHAT,
     getUrl: () => "https://messenger-app-eight.vercel.app/",
+    anotherUrl: "https://github.com/Axel-Makes-it/messenger-app",
   },
   {
     name: "Ecommerce Store - Being Built",
@@ -49,6 +52,7 @@ const projects = [
     `,
     imageUrl: STORE,
     getUrl: () => "https://store-app-one-iota.vercel.app/",
+    anotherUrl: "https://github.com/Axel-Makes-it/Store-app",
   },
 ];
 
@@ -70,14 +74,25 @@ function Projects() {
               <span>Tech:</span>
               {project.stack}
             </p>
-            <a
-              href={project.getUrl()}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={LINK} alt="Live View" />
-              Live View
-            </a>
+            <div className="projects__links">
+              <a
+                href={project.getUrl()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={LINK} alt="Live View" />
+                Live View
+              </a>
+              <a
+                id="code"
+                href={project.anotherUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={LINK} alt="Live View" />
+                View Code
+              </a>
+            </div>
           </div>
         </div>
       ))}
